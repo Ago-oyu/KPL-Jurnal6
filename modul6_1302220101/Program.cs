@@ -32,6 +32,12 @@
             vid1.printVideoDetails();
             Console.WriteLine();
             User.PrintAllVideoPlaycount();
+
+            //MENGUJI PREKONDISI
+            SayaTubeVideo vid11 = new SayaTubeVideo("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qua");
+            SayaTubeVideo vid12 = new SayaTubeVideo(null);
+            vid10.increasePlayCount(25000001);
+            
         }
     }
 }
